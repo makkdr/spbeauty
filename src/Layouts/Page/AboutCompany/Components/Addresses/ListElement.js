@@ -16,8 +16,8 @@ function ListElement(props) {
     return (
         <div className='d-flex flex-row align-items-center align-self-stretch gap-2'>
             <Option className='flex-grow-1 p-2'>{props.children}</Option>
-            <SecondaryButton minWidth='0'>Ред.</SecondaryButton>
-            <SecondaryButton minWidth='0'>Удл.</SecondaryButton>
+            <EditIcon minWidth='0'></EditIcon>
+            <RemoveIcon minWidth='0'></RemoveIcon>
         </div>
     );
 }
