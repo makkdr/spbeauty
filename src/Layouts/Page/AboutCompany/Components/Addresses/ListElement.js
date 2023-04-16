@@ -11,6 +11,9 @@ const Option = styled.div`
     background-color: #D9E2EF;
     color: #666787;
 `;
+const Button = styled.div`
+    background-color: none;
+`
 
 function ListElement(props) {
     return (
